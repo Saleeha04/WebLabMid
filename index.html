@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
 
@@ -37,33 +38,40 @@
     <div class="main-programs">
         <h2 class="heading-small">Categories</h2>
         <div class="section">
-            <img src="images/icons8-menu-48.png" alt="mic-img" class="cat-img">
+            <img src="images/microphone.png" alt="mic-img" class="cat-img">
             <h3 class="cat-title">Highest Sales</h3>
             <p class="cat-text">Check out the artist rankings according to sales!</p>
         </div>
         <div class="section">
-            <img src="images/icons8-menu-48.png" alt="mic-img" class="cat-img">
-            <h3 class="cat-title">Highest Sales</h3>
-            <p class="cat-text">Check out the artist rankings according to sales!</p>
+            <img src="images/hearts.png" alt="mic-img" class="cat-img">
+            <h3 class="cat-title">Fandom Favorite</h3>
+            <p class="cat-text">Which fandom will top the war this time?</p>
         </div>
         <div class="section">
-            <img src="images/icons8-menu-48.png" alt="mic-img" class="cat-img">
-            <h3 class="cat-title">Highest Sales</h3>
-            <p class="cat-text">Check out the artist rankings according to sales!</p>
+            <img src="images/sparkles.png" alt="mic-img" class="cat-img">
+            <h3 class="cat-title">Most Active</h3>
+            <p class="cat-text">Check out which group is the most active within the season!</p>
         </div>
         <div class="section">
-            <img src="images/icons8-menu-48.png" alt="mic-img" class="cat-img">
-            <h3 class="cat-title">Highest Sales</h3>
-            <p class="cat-text">Check out the artist rankings according to sales!</p>
+            <img src="images/ranking.png" alt="mic-img" class="cat-img">
+            <h3 class="cat-title">Top Rated</h3>
+            <p class="cat-text">Top notch quality and content along with performance, ALL IN ONE PLACE!</p>
         </div>
         <div class="section">
-            <img src="images/icons8-menu-48.png" alt="mic-img" class="cat-img">
-            <h3 class="cat-title">Highest Sales</h3>
-            <p class="cat-text">Check out the artist rankings according to sales!</p>
+            <img src="images/view.png" alt="mic-img" class="cat-img">
+            <h3 class="cat-title">Most Views</h3>
+            <p class="cat-text">Which artists are climbing the charts of number of views this time?</p>
         </div>
 
         <button class="vote-now">Vote Now!</button>
     </div>
+    <div class="featured">
+        <h2 class="heading-small">Featured Artists</h2>
+        <div id="artist-container" class="artist"></div>
+        <button id="show-more-btn" onclick="showMoreArtists()">More</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
